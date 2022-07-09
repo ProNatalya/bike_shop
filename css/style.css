@@ -115,12 +115,32 @@ body {
     cursor: pointer;/*курсор-стрелка при наведении меняется на руку*/
     transition: all .3s;/*плавность*/
 }
- {
-
-}
 .slick-dots button:hover,
 .slick-active button {
     background-color:#ff4040;
+}
+.bike__list {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.bike__list-item {
+    min-width: 160px;/*max widht /flex-basics - было в 3 строчки*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 58px;
+}
+.bike__list-number {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bike__list-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin: auto 0;
 }
 
 
