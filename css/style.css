@@ -151,6 +151,7 @@ body {
 .info__img {
     margin-right: 60px;
     flex-basis: 570px;
+    object-fit: cover;
 }
 .info-list {
     flex-basis: 490px;
@@ -167,5 +168,36 @@ body {
 .info__item-text {
     max-width: 450px;
 }
+.charakteristics {
+    margin-bottom: 150px;
+}
+.charakteristics__head {
+    margin: 0 0 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.charakteristics__inner {
+    display: flex;
+}
+.charakteristics__img {
+    align-self: center;
+}
+.charakteristics__items {
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+.charakteristics__list + .charakteristics__list {
+    padding-top: 30px;
+}
+.charakteristics__title {
+    padding: 2px 0 3px;
+    text-transform: uppercase;
+    background-color: #131313;
+    color: #ffff;
+    font-weight: 700;
+
+}
+
 
 
